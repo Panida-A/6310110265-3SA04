@@ -14,7 +14,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name = "Home: Choose a zip code" component = {ZipCodeScreen}/>
+        <Stack.Screen name = "Choose a zip code" component = {ZipCodeScreen}/>
         <Stack.Screen name = "Weather" component = {WeatherScreen}/>
       </Stack.Navigator>
     </NavigationContainer>

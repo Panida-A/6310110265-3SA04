@@ -24,7 +24,7 @@ const ZipItem = ({place, code, navigation}) => (
     
 )
 
-//const _keyExtractor = item => item.code
+const _keyExtractor = item => item.code
 
 export default function ZipCodeScreen() {   
     
