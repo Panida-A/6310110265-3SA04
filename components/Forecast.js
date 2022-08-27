@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View} from "react-native";
+import { StyleSheet, Text, View} from "react-native";
 
 export default function Forecast(props){
     return (
@@ -11,3 +11,23 @@ export default function Forecast(props){
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    main: {
+        fontSize: 40,
+        textAlign: 'center',
+        marginTop: 30,
+    },
+
+    description: {
+        fontSize: 40,
+        textAlign: 'center',
+        marginTop: 30,
+    },
+
+    temp: {
+        fontSize: 40,
+        textAlign: 'center',
+        marginTop: 30,
+    }
+})
