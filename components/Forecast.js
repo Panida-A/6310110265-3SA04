@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View} from "react-native";
+import { StyleSheet, Text, View, Button} from "react-native";
 
 export default function Forecast(props){
     return (
@@ -8,6 +8,11 @@ export default function Forecast(props){
             <Text style = {styles.description}>{props.description}</Text>
             <Text style = {styles.temp}>{props.temp} °C</Text>
             <Text style = {styles.humidity}>{props.humidity} RH</Text>
+            <View style = {styles.btn}>
+                <Button onPress={() => {alert('Thankyou...');}} 
+                title ="Back" color = "#00ff7f"/>
+            </View>
+            
         </View>
     )
 }
@@ -37,5 +42,11 @@ const styles = StyleSheet.create({
         fontSize: 20,
         textAlign: 'center',
         marginTop: 10,
+    },
+
+    btn: {
+        fontSize: 20,
+        textAlign: 'center',
+        marginTop: 250
     }
 })

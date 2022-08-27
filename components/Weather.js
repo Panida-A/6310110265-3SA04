@@ -21,6 +21,7 @@ export default function Weather(props) {
                 .then((json) => {
                     setForecastInfo({
                         main: json.weather[0].main,
+                        icon: json.weather[0].icon,
                         description: json.weather[0].description,
                         temp: json.main.temp,
                         humidity: json.main.humidity
