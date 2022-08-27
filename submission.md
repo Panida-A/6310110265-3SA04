@@ -3,8 +3,6 @@
 
 สิ่งที่ทำเพิ่มเติม
 
-commit 1 ตกแต่ง Home
-commit 2 ตกแต่งหน้า Weather
-commit 3 เพิ่มจำนวนจังหวัด
-commit 4
-commit 5
+1 ตกแต่ง Home
+2 ตกแต่งหน้า Weather
+3 เพิ่มจำนวนจังหวัด
